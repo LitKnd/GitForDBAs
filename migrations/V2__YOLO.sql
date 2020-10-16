@@ -1,2 +1,6 @@
-INSERT HelloWorld DEFAULT VALUES
-GO 20
+INSERT HelloWorld (Declaration)
+VALUES 
+    ('They''re all good dogs brent'),
+    ('I am a bear'),
+    ('You cannot step in the same river twice');
+GO 
