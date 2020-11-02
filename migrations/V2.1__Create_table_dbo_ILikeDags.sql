@@ -1,5 +1,8 @@
-CREATE TABLE ILikeDags (
+SET XACT_ABORT ON;
+GO
+CREATE TABLE dbo.ILikeDags (
     ILikeDagsId INT IDENTITY NOT NULL,
     Declaration nvarchar(1000) NULL,
     CONSTRAINT PK_ILikeDags PRIMARY KEY CLUSTERED (ILikeDagsId)
 );
+GO
