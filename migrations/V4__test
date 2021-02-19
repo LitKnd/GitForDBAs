@@ -1,0 +1,5 @@
+CREATE TABLE dbo.test_git(    
+     cus_Id INT IDENTITY NOT NULL,    
+     Declaration nvarchar(1000) NULL,    
+     CONSTRAINT PK_cusID PRIMARY KEY CLUSTERED (test_git)
+);
