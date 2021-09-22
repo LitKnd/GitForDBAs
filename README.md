@@ -1,4 +1,4 @@
-# GitForDBAs
+# GitForDBAs for Iyanumanuel
 
 This tutorial contains notebooks that are supported by [Azure Data Studio](https://docs.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio)
 
