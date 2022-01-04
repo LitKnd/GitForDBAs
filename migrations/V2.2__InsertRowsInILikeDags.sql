@@ -1,4 +1,4 @@
-INSERT dbo.ILikeDags (Declaration)
+INSERT into ILikeDags (Declaration)
 VALUES 
     ('I also like dags'),
     ('I think this is a fight club reference'),

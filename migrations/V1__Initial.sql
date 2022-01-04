@@ -1,6 +1,5 @@
-CREATE TABLE HelloWorld (
-    HelloWorldId INT IDENTITY NOT NULL,
-    Declaration nvarchar(1000) NULL,
-    CONSTRAINT PK_HelloWorld PRIMARY KEY CLUSTERED (HelloWorldId)
+CREATE or REPLACE TABLE HelloWorld (
+    HelloWorldId INT NULL,
+    Declaration nvarchar(1000) NULL
 );
 
