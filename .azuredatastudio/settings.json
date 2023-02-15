@@ -4,5 +4,6 @@
             "notebookPath": "c:/Git/GitForDBAs/notebooks/Learning-Git.ipynb",
             "bookPath": "c:/Git/GitForDBAs/notebooks"
         }
-    ]
+    ],
+    "git.autofetch": true
 }
