@@ -1,6 +1,4 @@
-
-
-## Let's practice merge conflicts
+# Let's practice merge conflicts
 
 ### Using a terminal start in the main branch:
 
