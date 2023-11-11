@@ -8,7 +8,7 @@ Purpose:
 Return query store options for all databases
 
 Usage:
-exec dbo.get_query_store_options
+exec dbo.get_query_store_options 
 ***************************/
 
 
@@ -25,7 +25,8 @@ DECLARE @dsql NVARCHAR(MAX);
 DECLARE db_cursor CURSOR FOR
     SELECT database_id, [name]
 FROM sys.databases
-WHERE state_desc = 'ONLINE';
+WHERE state_desc = 'ONLINE' 
+and database_id > 2;
 
 DROP TABLE IF EXISTS #query_store_options;
 CREATE TABLE #query_store_options
@@ -67,7 +68,7 @@ BEGIN
         query_capture_mode_desc,
         size_based_cleanup_mode_desc,
         wait_stats_capture_mode_desc
-    from sys.database_query_store_options'
+    from ' + QUOTENAME (@database_name) + N'.sys.database_query_store_options'
 
     IF @debug=1
         PRINT @dsql;

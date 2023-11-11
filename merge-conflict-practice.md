@@ -33,9 +33,8 @@ git checkout -b change2
 
 .AdminDB/migrations/R__get_database_size_space_used.sql
 
-Instead of doing "git add ." or adding individual files, we can use -a on commit if we want.
-
-git commit -m "updating documentation" -a
+git add .
+git commit -m "updating documentation"
 
 ## check out main and merge the changes from change2
 
