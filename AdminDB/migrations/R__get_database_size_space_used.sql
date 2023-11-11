@@ -5,7 +5,7 @@ GO
 
 /***************************
 Purpose:
-Returns database size & space used
+Returns database size and space used
 
 Usage:
 exec dbo.get_database_size_space_used
