@@ -17,7 +17,7 @@ git checkout change1
 .AdminDB/migrations/R__get_database_size_space_used.sql
 
 git status
-git add .
+git add -A
 git commit -m "updating description"
 
 ## check out main, then create a new branch named change2
@@ -33,7 +33,7 @@ git checkout -b change2
 
 .AdminDB/migrations/R__get_database_size_space_used.sql
 
-git add .
+git add -A
 git commit -m "updating documentation"
 
 ## check out main and merge the changes from change2
