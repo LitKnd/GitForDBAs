@@ -5,7 +5,7 @@ GO
 
 /***************************
 Purpose:
-Returns size and space used for all databadbsess.
+Returns size and space used for all databases.
 
 Usage:
 exec dbo.get_database_size_space_used
@@ -36,7 +36,7 @@ AS
     DROP TABLE IF EXISTS #db_file_stats;
     CREATE TABLE #db_file_stats
     (
-        database_id int not null,
+        database_id int null,
         data_files_reserved_gb money,
         data_files_used_gb money,
         data_files_empty_gb money,
